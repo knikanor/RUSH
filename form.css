@@ -1,0 +1,32 @@
+body {
+	background-color: #FFFACD;
+}
+.sign-in {
+	margin: auto;
+	background-color: rgba(248, 224, 104, .5);
+	font-family: 'Arial';
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.2);
+	text-align: center;
+	width: 31%;
+	padding: 40px 10px 40px 10px;
+	background: rgba(248, 224, 104, .5);
+	background: linear-gradient(to top, rgba(248, 224, 104, .5), #FFFACD);
+	padding: 10px;
+	border: 1px solid #333;
+}
+
+.add {
+	margin: auto;
+	background-color: rgba(248, 224, 104, .5);
+	font-family: 'Arial';
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.2);
+	text-align: center;
+	width: 31%;
+	padding: 100px 10px 40px 10px;
+	background: rgba(248, 224, 104, .5);
+	background: linear-gradient(to top, rgba(248, 224, 104, .5), #FFFACD);
+	padding: 10px;
+	border: 1px solid #333;
+}

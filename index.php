@@ -14,7 +14,7 @@
 		<title>Minishop</title>
 		<link rel='shortcut icon' type='image/x-icon' href='resources/Sessel-coloured.png'/>
 		<link rel="stylesheet" type="text/css" href="nav.css"/>
-		<link rel="stylesheet" type="text/css" href="/css/table.css"/>
+		<link rel="stylesheet" type="text/css" href="form.css"/>
 	</head>
 	<body>
 		<div class="header">
@@ -23,14 +23,13 @@
 			<img src="resources/image3.jpg">
 		</div>
 		<div class="menu">
-			<a href="index.html" class="brand"><img src="resources/logo.png"></a>
+			<a href="index.php" class="brand"><img src="resources/logo.png"></a>
 			<nav>
 				<ul>
                     <?php if ($_SESSION['role'] == 1): ?>
-                        <li><a href="#">Admin</a></li>
+                        <li><a href="admin.php">Admin</a></li>
                     <?php endif; ?>
-					<li><a href="users.php">Users</a></li>
-				 	<li><a href="categories.php">Categories</a>
+				 	<li><a href="">Categories</a>
 						<ul>
 							<li><a href="index.php?cat=1">Living room</a></li>
 							<li><a href="index.php?cat=2">Dining room</a></li>
